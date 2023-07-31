@@ -21,6 +21,11 @@ docker compose exec workspace bash
 root@0588fd116abd:/var/www# composer create-project laravel/laravel . --prefer-dist
 ```
 
+### PostgreSQL の起動
+```bash
+docker compose up -d postgres
+```
+
 
 ### アクセス
 http://localhost/ にアクセスすると Laravel のトップページになることを確認

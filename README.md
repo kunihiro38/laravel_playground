@@ -8,12 +8,12 @@ https://github.com/Laradock/laradock
 ## Laravel の立ち上げまで
 ### docker 起動
 ```bash
-docker-compose up -d workspace nginx
+docker compose up -d workspace nginx
 ```
 
 ### workspace コンテナに入る
 ```bash
-docker-compose exec workspace bash
+docker compose exec workspace bash
 ```
 ### プロジェクトの作成
 以下のコマンドを実行すると、src ディレクトリ以下にプロジェクトファイルが生成される
